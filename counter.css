@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: CollegiateInsideFLF;
+}
+section{
+    background-color: orange;
+    border-radius:20px ;
+    margin: 100px   auto;
+    width: 700px;
+    height:400px;
+}
+section div.fit{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+section div.fit h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+section div.fit #value {
+    font-size: 100px;
+    color: snow;
+}
+section div.fit .button {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+}
+section div.fit .button button {
+    width: 90px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 20px;
+    background-color: snow;
+    border: solid 2px black;
+    cursor: pointer;
+}
+section div.fit .button button:hover {
+    background-color: black;
+    color:snow;
+    transition: ease-out  0.1s;
+    box-shadow: 2px 2px 20px black;
+}
